@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    </head>
+    
+    <body>
+
+        <!--javascript for registerationforAdmin page-->
+        <script>
+  function handleSubmit(action) {
+    const form = document.getElementById("registrationForm");
+
+    // Trigger HTML5 validation manually
+    if (form.checkValidity()) {
+      form.action = action;
+      form.submit();
+    } else {
+      form.reportValidity(); // show validation messages
+    }
+  }
+</script>
+<!--End of javascript for registerationforAdmin page-->
+                
+
+        <img src="Friends.PNG" alt="Not available">
+        <center><h3>Friendship Zone</h3></center>
+
+        <p><b>Add your Details Register </b></p>
+
+        <!--Form starts here-->
+        <form action="registerationconfirmation.html" method="post"  id="registrationForm" novalidate>
+            <table>
+                <tr>
+                    <td><label for="username">Name:</label></td>
+                    <td><input type="text" id="username" placeholder="Enter your username" required /></td>
+                </tr>
+                <tr>
+                    <td><label for="email_id">Email :</label></td>
+                    <td><input type="email" id="email_id" placeholder="Enter your email ID" required /></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" min="18" required /></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Birth Day:</label></td>
+                    <td><input type="date" id="dob" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <label for="Male">Male
+                                <input type="radio" name="gender" id="Male" value="M" />
+                            </label>&nbsp;
+                            <label for="Female">Female
+                                <input type="radio" name="gender" id="Female" value="F" />
+                            </label>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td><label for="testfield">About</label></td>
+                    <td><textarea name="" id="testfield" rows="4" cols="50" ></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="phone_no">Phone number:</label></td>
+                    <td><input type="number" id="phone_no"  pattern="+ [0-9] {10}" required /></td>
+
+                </tr>
+                <tr>
+                    <td><label for="interested">Interested In:</label></td>
+                
+                    <td>
+                        <label for="friendship">Friendship</label>
+                        <input type="checkbox" id="friendship" name="interested" value="Friendship" />
+                        <label for="dating">Dating</label>
+                        <input type="checkbox" name="interested" id="dating" value="Dating" />
+                    </td>
+                
+                </tr>
+                <tr>
+                        <td><label for="attachment">Attachment:</label></td>
+                        <td><input type="file" id="attachement" required /></td>
+                    </tr>
+            </table>
+
+            <br>
+
+             <input type="submit" name="register_user" value="Register">
+             <button type="button" onclick="handleSubmit('registerationconfirmationforAdmin.html.')">Register As Admin</button>
+        </form>
+        <!--Form ends here-->
+                    
+                
+                
+                
+    </body>
+</html>
