@@ -62,9 +62,9 @@ This project demonstrates practical knowledge gained during the course, such as 
 > Confirmation Page for Admin  
 > ![Confirmation Screenshot](screenshots/confirmatioforadmin.png)
 
-> *(Make sure to add actual screenshots in the `screenshots/` folder and update the file names if needed.)*
 
----
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 How to Run the Project
 
