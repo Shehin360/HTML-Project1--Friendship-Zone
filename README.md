@@ -57,10 +57,10 @@ This project demonstrates practical knowledge gained during the course, such as 
 > ![Form Screenshot](screenshots/registration.png)
 
 > Confirmation Page for User  
-> ![Confirmation Screenshot](screenshots/confirmationforuser.png)
+> ![Confirmation Screenshot](screenshots/confirmatioforuser.png)
 
 > Confirmation Page for Admin  
-> ![Confirmation Screenshot](screenshots/confirmationforadmin.png)
+> ![Confirmation Screenshot](screenshots/confirmatioforadmin.png)
 
 > *(Make sure to add actual screenshots in the `screenshots/` folder and update the file names if needed.)*
 
