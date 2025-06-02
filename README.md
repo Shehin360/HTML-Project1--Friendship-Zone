@@ -54,7 +54,7 @@ This project demonstrates practical knowledge gained during the course, such as 
 > ![Friend List Screenshot](screenshots/friendlist.png)
 
 > Registration Form  
-> ![Form Screenshot](screenshots/registrationform.png)
+> ![Form Screenshot](screenshots/registration.png)
 
 > Confirmation Page for User  
 > ![Confirmation Screenshot](screenshots/confirmationforuser.png)
